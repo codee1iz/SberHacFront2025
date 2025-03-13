@@ -10,16 +10,28 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "chart.js": "^4.4.8",
-    "clsx": "^2.1.1",
-    "lucide-react": "^0.479.0",
-    "react": "^19.0.0",
-    "react-chartjs-2": "^5.3.0",
-    "react-dom": "^19.0.0",
-    "react-router-dom": "^7.3.0",
+<<<<<<< HEAD
+    "chart.js": "^4.4.1",
+    "clsx": "^2.1.0",
+    "lucide-react": "^0.344.0",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.22.3",
     "react-three-fiber": "^6.0.13",
-    "tailwind": "^2.3.1",
-    "three": "^0.174.0"
+    "styled-components": "^6.1.15",
+    "three": "^0.162.0"
+=======
+    "lucide-react": "^0.344.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.22.3",
+    "chart.js": "^4.4.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-three-fiber": "^6.0.13",
+    "three": "^0.162.0",
+    "clsx": "^2.1.0"
+>>>>>>> 12b7358c0f0675c5b1171ec3841eeb423361b4dc
   },
   "devDependencies": {
     "@eslint/js": "^9.22.0",
@@ -38,4 +50,8 @@
     "typescript-eslint": "^8.26.1",
     "vite": "^6.2.1"
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 12b7358c0f0675c5b1171ec3841eeb423361b4dc

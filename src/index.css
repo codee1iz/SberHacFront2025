@@ -7,7 +7,11 @@
     position: fixed;
     top: 0;
     left: 0;
+<<<<<<< HEAD
+    background-color: #f0f0f0; 
+=======
     background-color: #f0f0f0; /* Цвет фона */
+>>>>>>> 12b7358c0f0675c5b1171ec3841eeb423361b4dc
     display: flex;
     justify-content: center;
     align-items: center;
