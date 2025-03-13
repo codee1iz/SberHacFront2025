@@ -1,13 +1,20 @@
 import React from 'react';
+<<<<<<< HEAD
 import { Loader } from "./hui";
 import { ArrowRight, Zap, Database, Share2} from 'lucide-react';
+=======
+import { ArrowRight, Zap, Database, Share2 } from 'lucide-react';
+>>>>>>> 12b7358c0f0675c5b1171ec3841eeb423361b4dc
 import { Link } from 'react-router-dom'; 
 export const HomePage = () => {
   return (
     <div className="fullscreen relative bg-gradient-to-r from-blue-600 to-blue-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         <div className="text-center">
+<<<<<<< HEAD
           
+=======
+>>>>>>> 12b7358c0f0675c5b1171ec3841eeb423361b4dc
           <h1 className="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
             <span className="block">Advanced Co-Crystal</span>
             <span className="block text-blue-200">Evolutionary Optimization</span>
@@ -17,7 +24,11 @@ export const HomePage = () => {
           </p>
           <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
             <Link
+<<<<<<< HEAD
               to="/Tools"
+=======
+              to="/tools"
+>>>>>>> 12b7358c0f0675c5b1171ec3841eeb423361b4dc
               className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-white hover:bg-blue-50 transition-colors duration-200"
             >
               Начать работу
@@ -26,7 +37,11 @@ export const HomePage = () => {
           </div>
         </div>
       </div>
+<<<<<<< HEAD
         
+=======
+      
+>>>>>>> 12b7358c0f0675c5b1171ec3841eeb423361b4dc
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           <FeatureCard
@@ -45,7 +60,10 @@ export const HomePage = () => {
             description="Делитесь своими открытиями и сотрудничайте с исследователями по всему миру."
           />
         </div>
+<<<<<<< HEAD
         <Loader />
+=======
+>>>>>>> 12b7358c0f0675c5b1171ec3841eeb423361b4dc
       </div>
     </div>
   );

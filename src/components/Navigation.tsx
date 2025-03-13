@@ -17,12 +17,18 @@ export function Navigation() {
           
           <div className="hidden md:flex items-center space-x-8">
             <NavLink to="/" icon={<Home className="h-5 w-5" />} text="Home" />
+<<<<<<< HEAD
             <NavLink to="/Tools" icon={<Tool className="h-5 w-5" />} text="Research Tools" />
             <NavLink to="/viewer" icon={<LineChart className="h-5 w-5" />} text="3D Viewer" />
             <NavLink to="/publications" icon={<Book className="h-5 w-5" />} text="Publications" />
           
             
 
+=======
+            <NavLink to="/tools" icon={<Tool className="h-5 w-5" />} text="Research Tools" />
+            <NavLink to="/visualizer" icon={<LineChart className="h-5 w-5" />} text="3D Viewer" />
+            <NavLink to="/publications" icon={<Book className="h-5 w-5" />} text="Publications" />
+>>>>>>> 12b7358c0f0675c5b1171ec3841eeb423361b4dc
           </div>
         </div>
       </div>
