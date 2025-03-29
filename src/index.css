@@ -1,15 +1,32 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-.fullscreen {
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #f0f0f0; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.fullscreen-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; /* Контейнер по-прежнему будет в колонку */
+  align-items: center;
+}
+
+.fullscreen-container .logo-section {
+  display: flex;
+  flex-direction: column; /* Логотип и текст по вертикали */
+  align-items: center;
+  margin-bottom: 40px; /* Добавляем отступ снизу */
+}
+
+.feature-card-section {
+  display: flex;
+  flex-direction: row; /* Устанавливаем расположение в строку */
+  justify-content: center; /* Центрируем карты по горизонтали */
+  gap: 1.5rem; /* Отступ между картами */
+  width: 100%; /* Обеспечиваем, что блок займет всю доступную ширину */
+  max-width: 1200px; /* Ограничиваем максимальную ширину для контента */
+}
+
+.feature-card-section .feature-card {
+  flex: 1;
+  max-width: 300px; /* Ограничиваем максимальную ширину карт */
+}
